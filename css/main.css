@@ -5,7 +5,7 @@ body {line-height: 1;}
 ol, ul {list-style: none;}
 
 /*base styles*/
-body{max-width:800px;margin:auto;width:100%;font-family: 'Source Code Pro', ;color:#333;padding:0 10px;}
+body{max-width:800px;margin:auto;width:100%;font-family: 'Source Code Pro', ;color:#333;padding:0 10px;box-sizing: border-box;}
 footer{padding-top:20px;margin-top:50px;border-top:5px solid #333}
 h1{margin:20px 0;font-size:26px;font-weight:bold;}
 h2 {font-size:20px;font-weight:bold;}
