@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="content">
-
+  <p>{{ site.description }}</p>
   <h2>Reads</h2>
 
   <ul>
@@ -12,6 +12,7 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
+   <li><a href="/about">About</a></li>
   </ul>
 
 </div>
