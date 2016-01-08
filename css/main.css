@@ -5,7 +5,12 @@ body {line-height: 1;}
 ol, ul {list-style: none;}
 
 /*base styles*/
-body{max-width:800px;margin:auto;width:100%;font-family: 'Source Code Pro', ;color:#333;padding:0 10px;box-sizing: border-box;}
+body{max-width:800px;margin:auto;width:100%;font-family: 'Source Code Pro';color:#333;padding:0 10px;box-sizing: border-box;}
+.header h1 {width:40%;}
+.header h1, .header ul, .header li {float:left;}
+.header ul {margin:25px 0 15px 0;}
+.header li {margin-right:10px;}
+.content,.post {clear:both;}
 footer{padding-top:20px;margin-top:30px;border-top:5px solid #333}
 h1{margin:20px 0;font-size:26px;font-weight:bold;}
 h2 {font-size:20px;font-weight:bold;}
