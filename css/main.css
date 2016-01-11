@@ -5,21 +5,23 @@ body {line-height: 1;}
 ol, ul {list-style: none;}
 
 /*base styles*/
-body{max-width:800px;margin:auto;width:100%;font-family: 'Source Code Pro';color:#333;padding:0 10px;box-sizing: border-box;}
-.header h1 {width:40%;}
-.header h1, .header ul, .header li {float:left;}
-.header ul {margin:25px 0 15px 0;}
-.header li {margin-right:10px;}
-.content,.post {clear:both;}
+body{max-width:800px;margin:auto;width:100%;font-family: 'Source Code Pro';color:#333;padding:0 10px;box-sizing: border-box;margin-top:20px;}
+header{display:inline-block;}
 footer{padding-top:20px;margin-top:30px;border-top:5px solid #333}
-h1{margin:20px 0;font-size:26px;font-weight:bold;}
+h1{margin:10px 0 0 0;font-size:26px;font-weight:bold;}
 h2 {font-size:20px;font-weight:bold;}
 p,ul{margin:10px 0;}
 li {margin-bottom:5px;}
-a,a:visited{text-decoration:none;color:#40007f}
+a,a:visited{text-decoration:none;color:#000066;}
 a:hover,a span:hover{color:#000;}
 a span{color:#660000;}
 
 /*site styles*/
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 .icon > svg path { fill: #828282; }
+.header h1, .header ul, .header li {float:left;}
+.header h1 {margin:0 20px 10px 0;}
+.header ul {margin:0 0 10px 0;}
+.header li {margin-right:20px;font-weight:bold;}
+.content,.post {clear:both;}
+
