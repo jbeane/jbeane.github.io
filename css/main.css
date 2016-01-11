@@ -10,6 +10,7 @@ header{display:inline-block;}
 footer{padding-top:20px;margin-top:30px;border-top:5px solid #333}
 h1{margin:10px 0 0 0;font-size:26px;font-weight:bold;}
 h2 {font-size:20px;font-weight:bold;}
+h4 {font-weight:bold;margin:10px 0 0 0;}
 p,ul{margin:10px 0;}
 li {margin-bottom:5px;}
 a,a:visited{text-decoration:none;color:#000066;}
@@ -17,11 +18,13 @@ a:hover,a span:hover{color:#000;}
 a span{color:#660000;}
 
 /*site styles*/
-.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
-.icon > svg path { fill: #828282; }
-.header h1, .header ul, .header li {float:left;}
+.icon > svg {display: inline-block; width: 16px; height: 16px; vertical-align: middle;}
+.icon > svg path {fill: #828282;}
+.left {float:left;}
 .header h1 {margin:0 20px 10px 0;}
 .header ul {margin:0 0 10px 0;}
 .header li {margin-right:20px;font-weight:bold;}
 .content,.post {clear:both;}
-
+.footer-section{width:33%;margin-top:20px}
+.footer-section ul{margin:5px 0 0 5px;}
+h4 a, h4 a:visited {color:#660000;}
