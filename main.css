@@ -1,21 +1,18 @@
 html {
 	font-family: sans-serif;
 	color:#333;
+	font-size: 18px;
 }
 body {
 	margin: 0;
 }
 main {
-	max-width: 800px;
+    max-width: 900px;
     min-height: 500px;
     width: 100%;
     margin: 25px auto;
-	padding: 0 25px;
+    padding: 0 25px;
     box-sizing: border-box;
-}
-header {
-    text-align: center;
-	position:relative;
 }
 .left {
 	float:left;
@@ -23,13 +20,10 @@ header {
 .right {
 	float:right;
 }
-h2 {
-    text-align: center;
+.centered {
+	text-align: center;
 }
-p, blockquote {
-    font-size: 20px;
-    line-height: 25px;
-}
+
 a, a:visited {
 	color:#7373f3;
 }
@@ -40,22 +34,15 @@ a:hover {
 	margin: auto;
     display: block;
 	box-shadow: 0 0px 10px 0px #333;
+	max-width:100%;
 }
-blockquote {
-    border-left: 15px solid #f5f5f5;
-    padding: 15px 10px 15px 20px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.5);
-}
-blockquote figcaption {
-	margin-top: 10px;
-}
+
 .dutch {
 	width: 30px;
     height: 30px;
     animation: bonk 1.5s steps(20) infinite;
     background-image: url(assets/dutch-full.png);
-	float: left;
-    margin-right: 10px;
+	margin: auto;
 }
 @keyframes bonk {
    from { background-position:    0px; }
@@ -68,7 +55,6 @@ header {
     position: relative;
     display: inline-block;
     padding-top: 10vw;
-    text-align: center;
     color: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -77,6 +63,18 @@ header {
 	background-image: url(assets/bg-header1.jpg);
     background-position: center;
     background-repeat: no-repeat;
+	background-size: cover;
+}
+header .name {
+    line-height: 9vw;
+    margin-top: 3vw;
+}
+header .job {
+	font-size: 3vw;
+	margin-bottom: 3vw;
+	font-weight: normal;
+	line-height: 3vw;
+	margin-top: 0;
 }
 header:before,
 header:after {
@@ -92,6 +90,7 @@ header:before {
     background-image: inherit;
     background-position: center;
     background-repeat: no-repeat;
+	background-size: cover;
 }
 header:after {
     z-index: -1;
@@ -101,7 +100,18 @@ header:after {
     left: 0;
     background-color: #fff;
 }
-
+.social img {
+	width: 50px;
+    margin: 5px;
+}
+.social:hover {
+	filter: invert(50%);
+}
+.content-box {
+    padding: 25px;
+    border-bottom: 5px solid #c1c1c1;
+    background: #fbfbfb;
+}
 @media only screen and (min-width: 768px) {
 	header {
 		font-size: 5vw;
@@ -110,5 +120,16 @@ header:after {
 	header:after {
 		top: 5.5vw;
 		bottom: .5vw;
+	}
+	header .name {
+		line-height: 4vw;
+		margin-top: 1vw;
+	}
+	header .job {
+		font-size: 1vw;
+		margin-bottom: 1vw;
+		font-weight: normal;
+		line-height: 1vw;
+		margin-top: 0;
 	}
 }
